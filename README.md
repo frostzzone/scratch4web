@@ -7,6 +7,7 @@ Scratch For Web - Create Dynamic Responsive Webpages fast using blocks!
 ## Links
 
 Website: https://scratch4web.vercel.app/
+
 Discord: https://discord.gg/57HNMGDvXa
 
 ## TODO
