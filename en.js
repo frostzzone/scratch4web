@@ -21,28 +21,28 @@ Msg = {
   },
   blocks: {
     "baseframe": {
-      "message0": "document %1 header %2 %3 content %4 %5",
+      "message0": "Web Page %1 Head  %2 %3 Body %4 %5",
     },
     "html": {
-      "message0": "document %1 %2",
+      "message0": "Webpage %1 %2",
     },
     "body": {
-      "message0": "content %1 %2",
+      "message0": "Body %1 %2",
     },
     "head": {
       "message0": "header %1 %2",
     },
     "title": {
-      "message0": "title %1",
+      "message0": "Site title %1",
     },
     "paragraph": {
-      "message0": "paragraph %1",
+      "message0": "Paragraph %1%2%3",
     },
     "plaintext": {
-      "message0": "text %1",
+      "message0": "Text %1",
     },
     "division": {
-      "message0": "division %1 %2",
+      "message0": "Divider %1 %2",
     },
     "style": {
       "message0": "style =  %1 %2",
@@ -73,7 +73,7 @@ Msg = {
       ],
     },
     "generictag": {
-      "message0": "< %1 > %2 %3",
+      "message0": "Custom %1 %2 %3",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"text": "tag"},],
@@ -99,12 +99,12 @@ Msg = {
       "args0": [{"text": "target"}],
     },
     "span": {
-      "message0": "span %1 %2",
+      "message0": "Span%1 %2",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "image": {
-      "message0": "image %1 or %2",
+      "message0": "Add Image With %1 With %2",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [
@@ -113,17 +113,17 @@ Msg = {
       ],
     },
     "emphasise": {
-      "message0": "emphasise %1 %2",
+      "message0": "Add Italics To %1 %2",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "strong": {
-      "message0": "important %1 %2",
+      "message0": "Set %1 To Bold %2",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "headline": {
-      "message0": "headline %1 %2 %3",
+      "message0": "Header With Size  %1 %2 %3",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"options": [
