@@ -42,6 +42,12 @@ HtmlGenerator['html'] = function(block) {
   var code = '<!DOCTYPE HTML>\n<html>\n' + statements_content + '</html>\n';
   return code;
 };
+HtmlGenerator['div'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  var code = '<div>\n' + statements_content + '</div>\n';
+  return code;
+};
+
 
 HtmlGenerator['margin'] = function(block) {
   var value_class = HtmlGenerator.valueToCode(block, 'class', HtmlGenerator.ORDER_ATOMIC);
