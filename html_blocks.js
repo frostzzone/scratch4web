@@ -51,8 +51,11 @@ var htmlBlocks =
 },
  {
   "type": "classer",
-  "message0": "Class =  %1 %2 Content %3",
+  "message0": "Set Class To  %1%2 %3 Content %4",
   "args0": [
+      {
+      "type": "input_dummy"
+    },
     {
       "type": "field_input",
       "name": "text",
@@ -70,7 +73,7 @@ var htmlBlocks =
   "previousStatement": null,
   "nextStatement": null,
   "colour": 230,
-  "tooltip": "Allows you to style classes inside of heading tag",
+  "tooltip": "Allows you to set items to  a specific class inside the body",
   "helpUrl": "https://www.w3schools.com/css"
 },
 {
