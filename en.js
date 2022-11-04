@@ -64,7 +64,7 @@ Msg = {
       "helpUrl": ""
     },
     "genericstyle": {
-      "message0": "[Custom CSS] Set Class%1 Value  %2",
+      "message0": "[Custom CSS] Class%1  CSS  %2",
       "tooltip": "",
       "helpUrl": "",
       "args0": [
