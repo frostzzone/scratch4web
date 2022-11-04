@@ -256,7 +256,7 @@ var htmlBlocks =
 },
 {
   "type": "genericstyle",
-  "message0": "%1 : %2",
+  "message0": "[Custom CSS] Set Class To %1 : Set Value To  %2",
   "args0": [
   {
     "type": "field_input",
