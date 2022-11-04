@@ -42,7 +42,7 @@ Msg = {
       "message0": "Text %1",
     },
     "division": {
-      "message0": "Divider %1 %2",
+      "message0": "Divider Class =  %1 %2%3%4",
     },
     "style": {
       "message0": "Inline Style Content  %1 %2",
