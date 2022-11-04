@@ -105,7 +105,7 @@ var htmlBlocks =
 },
 {
   "type": "head",
-  "message0": "header %1 %2",
+  "message0": "Header %1 %2",
   "args0": [
   {
     "type": "input_dummy"
