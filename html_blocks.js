@@ -42,7 +42,8 @@ var htmlBlocks =
   ],
   "colour": 230,
   "tooltip": "Place inside of divider - this allows you to style it",
-  "helpUrl": "https://www.w3schools.com/css"
+  "helpUrl": "https://www.w3schools.com/css",
+  "output": "String",
 },
 {
   "type": "class",
