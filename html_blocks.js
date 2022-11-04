@@ -83,7 +83,7 @@ var htmlBlocks =
   "colour": 230,
   "tooltip": "Place content to separate from the rest of the code",
   "helpUrl": "https://www.w3schools.com/tags/tag_div.asp"
-}
+},
 {
   "type": "body",
   "message0": "Body %1 %2",
