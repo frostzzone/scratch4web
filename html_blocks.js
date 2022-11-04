@@ -49,6 +49,30 @@ var htmlBlocks =
   "tooltip": "this allows you to style webpages",
   "helpUrl": "https://www.w3schools.com/html/html_classes.asp"
 },
+ {
+  "type": "classer",
+  "message0": "Class =  %1 %2 Content %3",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "text",
+      "text": "default"
+    },
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "head",
+      "check": "style, title"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Allows you to style classes inside of heading tag",
+  "helpUrl": "https://www.w3schools.com/css"
+},
 {
   "type": "html",
   "message0": "Html Page %1 %2",
