@@ -293,7 +293,7 @@ var htmlBlocks =
 },
 {
   "type": "color",
-  "message0": "text colour :  %1",
+  "message0": "Font colour :  %1",
   "args0": [
   {
     "type": "field_colour",
@@ -301,8 +301,8 @@ var htmlBlocks =
     "colour": "#ff0000"
   }
   ],
-  "previousStatement": "css",
-  "nextStatement": "css",
+  "previousStatement":"genericstyle",
+  "nextStatement": null,
   "colour": 230,
   "tooltip": "",
   "helpUrl": ""
