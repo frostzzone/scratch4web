@@ -269,7 +269,7 @@ var htmlBlocks =
   "colour": 0,
   "tooltip": "Divide content from the rest of the page",
   "helpUrl": "https://www.w3schools.com/css"
-}
+},
 {
   "type": "style",
   "message0": "style =  %1 %2",
