@@ -38,7 +38,6 @@ HtmlGenerator['baseframe'] = function(block) {
 };
 
 HtmlGenerator['styler'] = function(block) {
-  var value_name = HtmlGenerator.JavaScript.valueToCode(block, 'NAME',HtmlGenerator.JavaScript.ORDER_ATOMIC);
   var statements_head = HtmlGenerator.JavaScript.statementToCode(block, 'head');
   // TODO: Assemble JavaScript into code variable.
   var code = `<style>`;
