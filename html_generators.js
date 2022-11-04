@@ -37,6 +37,16 @@ HtmlGenerator['baseframe'] = function(block) {
   return code;
 };
 
+HtmlGenerator['styler'] = function(block) {
+  var value_name = HtmlGenerator.JavaScript.valueToCode(block, 'NAME',HtmlGenerator.JavaScript.ORDER_ATOMIC);
+  var statements_head = HtmlGenerator.JavaScript.statementToCode(block, 'head');
+  // TODO: Assemble JavaScript into code variable.
+  var code = `<style>`;
+  +  statements_head 
+  + `</style>\n`
+  return code;
+};
+
 HtmlGenerator['html'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
   var code = '<!DOCTYPE HTML>\n<html>\n' + statements_content + '</html>\n';
