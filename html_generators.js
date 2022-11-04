@@ -40,9 +40,12 @@ HtmlGenerator['baseframe'] = function(block) {
 HtmlGenerator['styler'] = function(block) {
   var statements_head = HtmlGenerator.statementToCode(block, 'head');
   // TODO: Assemble JavaScript into code variable.
-  var code = `<style>`;
-  +  statements_head 
-  + `</style>\n`
+  var code = `
+  <style> 
+   ${statements_head}
+  </style>
+  
+  `;
   return code;
 };
 
