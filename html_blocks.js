@@ -32,7 +32,7 @@ var htmlBlocks =
 },
 {
   "type": "class",
-  "message0": "%1 %2",
+  "message0": "Custom CSS%1 %2",
   "args0": [
     {
       "type": "field_label_serializable",
