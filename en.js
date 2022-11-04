@@ -122,17 +122,17 @@ Msg = {
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
-    "headline": {
+     "headline": {
       "message0": "Header With Size  %1 %2 %3",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"options": [
-        [ "h1"],
-        [ "h2"],
-        [ "h3"],
-        [ "h4"],
-        [ "h5"],
-        [ "h6"]
+        ["level 1","h1"],
+        ["level 2","h2"],
+        ["level 3","h3"],
+        ["level 4","h4"],
+        ["level 5","h5"],
+        ["level 6","h6"]
       ]}],
     },
     "linebreak": {
