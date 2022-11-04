@@ -45,9 +45,9 @@ Msg = {
       "message0": "Divider %1 %2",
     },
     "style": {
-      "message0": "style =  %1 %2",
-      "tooltip": "",
-      "helpUrl": ""
+      "message0": "Inline Style Content  %1 %2",
+      "tooltip": "Place this into divs custom tags or spans to style text ",
+      "helpUrl": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_inline"
     },
     "color": {
       "message0": "text colour :  %1",
@@ -64,7 +64,7 @@ Msg = {
       "helpUrl": ""
     },
     "genericstyle": {
-      "message0": "%1 : %2",
+      "message0": "%1 Custom CSS Styling : %2",
       "tooltip": "",
       "helpUrl": "",
       "args0": [
@@ -73,7 +73,7 @@ Msg = {
       ],
     },
     "generictag": {
-      "message0": "Custom %1 %2 %3",
+      "message0": "Create A Custom %1 %2 %3",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"text": "tag"},],
