@@ -4,32 +4,38 @@
 var htmlBlocks =
 [{
   "type": "baseframe",
-  "message0": "Html Page %1 header %2 %3 Body %4 %5",
+  "message0": "Create Web Page With %1 %2 %3 %4 %5 %6",
   "args0": [
-  {
-    "type": "input_dummy"
-  },
-  {
-    "type": "input_dummy"
-  },
-  {
-    "type": "input_statement",
-    "name": "head",
-    "check": "header"
-  },
-  {
-    "type": "input_dummy"
-  },
-  {
-    "type": "input_statement",
-    "name": "body",
-    "check": "Html Page"
-  }
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "field_label_serializable",
+      "name": "head",
+      "text": "Head content"
+    },
+    {
+      "type": "input_statement",
+      "name": "head",
+      "check": "style, title"
+    },
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "field_label_serializable",
+      "name": "body",
+      "text": "Body Content"
+    },
+    {
+      "type": "input_statement",
+      "name": "body"
+    }
   ],
-  "colour": 0,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-},
+  "colour": 230,
+  "tooltip": "Place content to separate from the rest of the code",
+  "helpUrl": "https://www.w3schools.com/html"
+}
 {
   "type": "class",
   "message0": "%1 %2",
