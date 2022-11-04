@@ -8,8 +8,7 @@ var htmlBlocks =
   "args0": [
   {
     "type": "input_dummy"
-  },
-  {
+    {
     "type": "input_dummy"
   },
   {
@@ -68,24 +67,10 @@ var htmlBlocks =
 },
  {
   "type": "styler",
-  "message0": "Set class to %1 %2 %3 %4 %5 %6",
+  "message0": "Style Content %1 %2 %3",
   "args0": [
     {
       "type": "input_dummy"
-    },
-    {
-      "type": "field_input",
-      "name": "NAME",
-      "text": "Class Name"
-    },
-    {
-      "type": "input_value",
-      "name": "NAME"
-    },
-    {
-      "type": "field_label_serializable",
-      "name": "head",
-      "text": "Set Values To"
     },
     {
       "type": "input_statement",
@@ -101,7 +86,7 @@ var htmlBlocks =
   "colour": 230,
   "tooltip": "Allows you to style classes inside of heading tag",
   "helpUrl": "https://www.w3schools.com/css"
-}
+},
  {
   "type": "div",
   "message0": "Seperate Content %1 %2",
