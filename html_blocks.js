@@ -301,7 +301,7 @@ var htmlBlocks =
     "colour": "#ff0000"
   }
   ],
-  "previousStatement":"genericstyle",
+  "previousStatement":"classer",
   "nextStatement": null,
   "colour": 230,
   "tooltip": "",
