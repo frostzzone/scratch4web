@@ -4,7 +4,7 @@
 var htmlBlocks =
 [{
   "type": "baseframe",
-  "message0": "document %1 header %2 %3 content %4 %5",
+  "message0": "Html Page %1 header %2 %3 Body %4 %5",
   "args0": [
   {
     "type": "input_dummy"
@@ -86,7 +86,7 @@ var htmlBlocks =
 }
 {
   "type": "body",
-  "message0": "content %1 %2",
+  "message0": "Body %1 %2",
   "args0": [
   {
     "type": "input_dummy"
