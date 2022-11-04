@@ -231,7 +231,8 @@
 
     <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
       <category name="html" expanded="true">
-        <category name="baseframe" colour="#a55b5b">
+        <category name="Base Blocks" colour="#a55b5b">
+          <block type="div"/>
           <block type="html">
             <statement name="content">
               <block type="head">
@@ -262,7 +263,7 @@
             </statement>
           </block>
         </category>
-        <category name="textstructure" colour="#5ba55b">
+        <category name="Text" colour="#5ba55b">
           <block type="plaintext">
             <field name="content"></field>
           </block>
@@ -283,7 +284,7 @@
             <field name="NAME">tag</field>
           </block>
         </category>
-        <category name="markup" colour="#5ba55b">
+        <category name="Format Text" colour="#5ba55b">
           <block type="emphasise"></block>
           <block type="inserted"></block>
           <block type="strong"></block>
@@ -298,7 +299,7 @@
           <block type="variable"></block>
           <block type="division"></block>
         </category>
-        <category name="style" colour="#5b6da5">
+        <category name="CSS Styling" colour="#5b6da5">
           <block type="span">
             <value name="NAME">
               <block type="style"></block>
@@ -321,7 +322,7 @@
             <field name="NAME">tag</field>
           </block>
         </category>
-        <category name="enumerations" colour="#a55ba5">
+        <category name="Lists" colour="#a55ba5">
           <block type="unorderedlist"></block>
           <block type="orderedlist"></block>
           <block type="listelement"></block>
@@ -360,19 +361,17 @@
           <block type="input_text">
             <field name="default"></field>
           </block>
-          <block type="button"></block>
+          <block type="button's"></block>
           <block type="input">
             <field name="type">text</field>
             <field name="value"></field>
           </block>
         </category>
-        <category name="scripts" colour="#a5a55b">
-          <block type="script"></block>
-          <block type="onclick"></block>
-        </category>
       </category>
       <sep></sep>
-      <category name="scripting">
+      <category name="Javascript Blocks">
+          <block type="script"></block>
+          <block type="onclick"></block>
         <category name="logic" colour="#5C81A6">
           <block type="controls_if"></block>
           <block type="logic_compare">
