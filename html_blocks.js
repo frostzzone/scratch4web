@@ -124,13 +124,19 @@ var htmlBlocks =
 },
 {
   "type": "title",
-  "message0": "Web Page Title %1",
+  "message0": "Web Page Title %1%2%3",
   "args0": [
+    {
+      "type":"input_dummy"
+    },
   {
     "type": "input_statement",
     "name": "content",
     "check": "html"
-  }
+  },
+       {
+      "type":"input_dummy"
+    },
   ],
   "previousStatement": "header",
   "nextStatement": "header",
