@@ -131,9 +131,15 @@ HtmlGenerator['plaintext'] = function(block) {
 };
 
 HtmlGenerator['division'] = function(block) {
-  var value_name = HtmlGenerator.valueToCode(block, 'NAME', HtmlGenerator.ORDER_ATOMIC);
-  var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<div' + value_name + '>\n' + statements_content + '</div>\n';
+  var text_class = block.getFieldValue('class');
+  var statements_name = HtmlGenerator.statementToCode(block, 'NAME');
+  // TODO: Assemble JavaScript into code variable.
+  var code = `
+  <div class="${text_class}">
+   ${statements_name}
+  </div>
+  
+  \n`;
   return code;
 };
 
