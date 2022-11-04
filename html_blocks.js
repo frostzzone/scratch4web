@@ -68,21 +68,22 @@ var htmlBlocks =
 },
  {
   "type": "div",
-  "message0": " Contain Content %1 %2",
+  "message0": "Seperate Content %1 %2",
   "args0": [
-  {
-    "type": "input_dummy"
-  },
-  {
-    "type": "input_statement",
-    "name": "content",
-    "check": "document"
-  }
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "content"
+    }
   ],
-  "colour": 0,
-  "tooltip": "",
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Place content to separate from the rest of the code",
   "helpUrl": "https://www.w3schools.com/tags/tag_div.asp"
-},
+}
 {
   "type": "body",
   "message0": "content %1 %2",
