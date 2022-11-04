@@ -49,6 +49,18 @@ HtmlGenerator['styler'] = function(block) {
   return code;
 };
 
+HtmlGenerator['classer'] = function(block) {
+  var text_text = block.getFieldValue('text');
+  var statements_head = HtmlGenerator.statementToCode(block, 'head');
+  // TODO: Assemble JavaScript into code variable.
+  var code = `
+   <div class="${text_text}">
+    ${statements_head}
+   </div>
+  `;
+  return code;
+};
+
 HtmlGenerator['html'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
   var code = '<!DOCTYPE HTML>\n<html>\n' + statements_content + '</html>\n';
