@@ -19,7 +19,7 @@ HtmlGenerator.scrub_ = function(block, code) {
 function removeIndentAndTrailingNewline() {
    
 }
-HtmlGenerator['classer'] = function(block) {
+HtmlGenerator['divclass'] = function(block) {
   var text_text = block.getFieldValue('text');
   // TODO: Assemble JavaScript into code variable.
   var code = `class="${text_text}"`;
