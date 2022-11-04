@@ -54,9 +54,9 @@ HtmlGenerator['classer'] = function(block) {
   var statements_head = HtmlGenerator.statementToCode(block, 'head');
   // TODO: Assemble JavaScript into code variable.
   var code = `
-   <div class="${text_text}">
-    ${statements_head}
-   </div>
+   .${text_text}{
+   ${statements_head}
+   }
   `;
   return code;
 };
