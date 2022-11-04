@@ -266,8 +266,10 @@ var htmlBlocks =
       "type": "input_dummy"
     }
   ],
+  "previousStatement": null,
+  "nextStatement": null,
   "colour": 0,
-  "tooltip": "Divide content from the rest of the page",
+  "tooltip": "Allows you to style classes inside of heading tag",
   "helpUrl": "https://www.w3schools.com/css"
 },
 {
