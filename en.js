@@ -33,7 +33,7 @@ Msg = {
       "message0": "header %1 %2",
     },
     "title": {
-      "message0": "Site title %1",
+      "message0": "Site title %1%2%3",
     },
     "paragraph": {
       "message0": "Paragraph %1%2%3",
@@ -127,12 +127,12 @@ Msg = {
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"options": [
-        ["level 1","h1"],
-        ["level 2","h2"],
-        ["level 3","h3"],
-        ["level 4","h4"],
-        ["level 5","h5"],
-        ["level 6","h6"]
+        [ "h1"],
+        [ "h2"],
+        [ "h3"],
+        [ "h4"],
+        [ "h5"],
+        [ "h6"]
       ]}],
     },
     "linebreak": {
