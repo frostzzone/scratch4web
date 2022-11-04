@@ -253,7 +253,7 @@ var htmlBlocks =
   {
     "type": "input_value",
     "name": "NAME",
-    "check": "attribute"
+    "check": "divclass"
   },
   {
     "type": "input_statement",
