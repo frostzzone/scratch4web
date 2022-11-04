@@ -9,6 +9,7 @@ var htmlBlocks =
   {
     "type": "input_dummy"
   },
+   {
     "type": "input_dummy"
   },
   {
@@ -75,7 +76,7 @@ var htmlBlocks =
     {
       "type": "input_statement",
       "name": "head",
-      "check": "style, title"
+      "check": ""
     },
     {
       "type": "input_dummy"
