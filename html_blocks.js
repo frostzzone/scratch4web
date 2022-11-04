@@ -30,6 +30,20 @@ var htmlBlocks =
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
+ {
+  "type": "divclass",
+  "message0": "Class = %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "text",
+      "text": "default"
+    }
+  ],
+  "colour": 230,
+  "tooltip": "Place inside of divider - this allows you to style it",
+  "helpUrl": "https://www.w3schools.com/css"
+},
 {
   "type": "class",
   "message0": "Custom CSS%1 %2",
