@@ -66,6 +66,23 @@ var htmlBlocks =
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
+ {
+  "type": "div",
+  "message0": " Contain Content %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content",
+    "check": "document"
+  }
+  ],
+  "colour": 0,
+  "tooltip": "",
+  "helpUrl": "https://www.w3schools.com/tags/tag_div.asp"
+},
 {
   "type": "body",
   "message0": "content %1 %2",
