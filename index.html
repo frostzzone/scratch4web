@@ -258,12 +258,17 @@
           <block type="division"></block>
           <block type="body_attributes"></block>
           <block type="head"></block>
+          
           <block type="title">
             <statement name="content">
               <block type="plaintext">
                 <field name="content"></field>
               </block>
             </statement>
+          </block>
+          <block type="span"/>
+          <block type="generictag">
+            <field name="NAME">Custom Tag</field>
           </block>
         </category>
         <category name="Text Formatting" colour="#5ba55b">
@@ -310,11 +315,6 @@
         </category>
         <category name="CSS Styling" colour="#5b6da5">
           <label  text="Styling"></label> 
-          <block type="span">
-            <value name="NAME">
-              <block type="style"></block>
-            </value>
-          </block>
           <block type="style"></block>
           <block type="color">
             <field name="NAME">#ff0000</field>
@@ -327,10 +327,6 @@
             <field name="value">value</field>
           </block>
  
-         
-          <block type="generictag">
-            <field name="NAME">tag</field>
-          </block>
         </category>
         <category name=" Lists" colour="#a55ba5">
           <label  text="Lists"></label> 
