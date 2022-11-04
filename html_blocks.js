@@ -67,6 +67,42 @@ var htmlBlocks =
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
  {
+  "type": "styler",
+  "message0": "Set class to %1 %2 %3 %4 %5 %6",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "Class Name"
+    },
+    {
+      "type": "input_value",
+      "name": "NAME"
+    },
+    {
+      "type": "field_label_serializable",
+      "name": "head",
+      "text": "Set Values To"
+    },
+    {
+      "type": "input_statement",
+      "name": "head",
+      "check": "style, title"
+    },
+    {
+      "type": "input_dummy"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "Allows you to style classes inside of heading tag",
+  "helpUrl": "https://www.w3schools.com/css"
+}
+ {
   "type": "div",
   "message0": "Seperate Content %1 %2",
   "args0": [
