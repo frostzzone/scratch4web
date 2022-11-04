@@ -23,7 +23,7 @@ var htmlBlocks =
   {
     "type": "input_statement",
     "name": "body",
-    "check": "html"
+    "check": "Html Page"
   }
   ],
   "colour": 0,
@@ -59,7 +59,7 @@ var htmlBlocks =
   {
     "type": "input_statement",
     "name": "content",
-    "check": "document"
+ 
   }
   ],
   "colour": 0,
