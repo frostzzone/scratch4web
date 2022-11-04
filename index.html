@@ -232,8 +232,8 @@
    
 
     <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-      <category name="html" expanded="true">
-        <category name="baseframe" colour="#a55b5b">
+      <category name="Html Blocks" expanded="true">
+        <category name="Base Blocks" colour="#a55b5b">
           <block type="html">
             <statement name="content">
               <block type="head">
@@ -254,6 +254,7 @@
           </block>
           <block type="html"></block>
           <block type="body"></block>
+          <block type="div"/>
           <block type="body_attributes"></block>
           <block type="head"></block>
           <block type="title">
@@ -264,7 +265,7 @@
             </statement>
           </block>
         </category>
-        <category name="textstructure" colour="#5ba55b">
+        <category name="Text Styling" colour="#5ba55b">
           <block type="plaintext">
             <field name="content"></field>
           </block>
@@ -274,6 +275,13 @@
           <block type="headline">
             <field name="NAME">h1</field>
           </block>
+          
+          <block type="generictag">
+            <field name="NAME">tag</field>
+          </block>
+        </category>
+        <category name="Text Formatting" colour="#5ba55b">
+          <label>Link Attributes</label>
           <block type="link">
             <field name="NAME">target</field>
           </block>
@@ -281,11 +289,8 @@
             <field name="IMAGE">URL</field>
             <field name="ALT">alternative text</field>
           </block>
-          <block type="generictag">
-            <field name="NAME">tag</field>
-          </block>
         </category>
-        <category name="markup" colour="#5ba55b">
+        <category name="Text Formatting" colour="#5ba55b">
           <block type="emphasise"></block>
           <block type="inserted"></block>
           <block type="strong"></block>
@@ -323,12 +328,12 @@
             <field name="NAME">tag</field>
           </block>
         </category>
-        <category name="enumerations" colour="#a55ba5">
+        <category name=" Lists" colour="#a55ba5">
           <block type="unorderedlist"></block>
           <block type="orderedlist"></block>
           <block type="listelement"></block>
         </category>
-        <category name="tables" colour="#5ba5a5">
+        <category name="Tables" colour="#5ba5a5">
           <block type="table">
             <statement name="content">
               <block type="tablerow">
@@ -357,7 +362,7 @@
           <block type="tablerow"></block>
           <block type="tablecell"></block>
         </category>
-        <category name="forms" colour="#80a55b">
+        <category name="Forms" colour="#80a55b">
           <block type="form"></block>
           <block type="input_text">
             <field name="default"></field>
@@ -368,13 +373,11 @@
             <field name="value"></field>
           </block>
         </category>
-        <category name="scripts" colour="#a5a55b">
-          <block type="script"></block>
-          <block type="onclick"></block>
-        </category>
       </category>
       <sep></sep>
-      <category name="scripting">
+      <category name="Javascript Scripting">
+          <block type="script"></block>
+          <block type="onclick"></block>
         <category name="logic" colour="#5C81A6">
           <block type="controls_if"></block>
           <block type="logic_compare">
