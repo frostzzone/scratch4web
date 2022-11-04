@@ -248,25 +248,28 @@ var htmlBlocks =
 },
 {
   "type": "division",
-  "message0": "division %1 %2",
+  "message0": " Divider Class = %1 %2 %3 %4",
   "args0": [
-  {
-    "type": "input_value",
-    "name": "NAME",
-
-  },
-  {
-    "type": "input_statement",
-    "name": "content",
-    "check": "html"
-  }
+    {
+      "type": "field_input",
+      "name": "class",
+      "text": "Default"
+    },
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "NAME"
+    },
+    {
+      "type": "input_dummy"
+    }
   ],
-  "previousStatement": "html",
-  "nextStatement": "html",
-  "colour": 90,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-},
+  "colour": 0,
+  "tooltip": "Divide content from the rest of the page",
+  "helpUrl": "https://www.w3schools.com/css"
+}
 {
   "type": "style",
   "message0": "style =  %1 %2",
