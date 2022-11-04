@@ -140,13 +140,19 @@ var htmlBlocks =
 },
 {
   "type": "paragraph",
-  "message0": "paragraph %1",
+  "message0": "paragraph %1 %2 %3",
   "args0": [
+    {
+      "type":"input_dummy"
+    },
   {
     "type": "input_statement",
     "name": "content",
     "check": "html"
-  }
+  },
+  {
+    "type":"input_dummy"
+  },
   ],
   "previousStatement": "html",
   "nextStatement": "html",
