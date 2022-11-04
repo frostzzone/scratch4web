@@ -8,7 +8,7 @@ var htmlBlocks =
   "args0": [
   {
     "type": "input_dummy"
-    {
+  },
     "type": "input_dummy"
   },
   {
