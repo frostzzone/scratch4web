@@ -124,7 +124,7 @@ var htmlBlocks =
 },
 {
   "type": "title",
-  "message0": "title %1",
+  "message0": "Web Page Title %1",
   "args0": [
   {
     "type": "input_statement",
