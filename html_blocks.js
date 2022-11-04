@@ -51,7 +51,7 @@ var htmlBlocks =
 },
 {
   "type": "html",
-  "message0": "document %1 %2",
+  "message0": "Html Page %1 %2",
   "args0": [
   {
     "type": "input_dummy"
